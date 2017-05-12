@@ -8,9 +8,9 @@
 # Hadoop VirtualBox Image
 
 难度等级：☆<br>
-预计时间：30 minus<br>
+预计时间：1 hours<br>
 
-1) 复制 Hadoop VirtualBox Image（Tenji_01_Hadoop目录下的三个节点） 到自己的电脑上<br>
+1) 复制 Hadoop VirtualBox Image（01_Hadoop目录下的三个节点） 到自己的电脑上<br>
 2) 在 VirtualBox 环境中，导入 Hadoop VirtualBox Image<br>
 3) 根据自己的硬件环境，调整虚拟机节点的内存，物理网卡名称（可能需要刷新 MAC ADDRESS ）<br>
 4) 开启3个虚拟机节点（NameNode，DataNode-1，DataNode-2）<br>
@@ -20,7 +20,7 @@
 # Hadoop VirtualBox Image Customize
 
 难度等级：★★<br>
-预计时间：2 hours<br>
+预计时间：3 hours<br>
 
 1) 开启3个虚拟机节点（NameNode，DataNode-1，DataNode-2）<br>
 2) 分别在三个虚拟机节点，新建 hadoop 用户，密码任意（可以和用户名相同）<br>
@@ -39,8 +39,8 @@ ssh 本节点主机名，ssh 其他节点A主机名，ssh 其他节点B主机名
 
 # CentOS Hadoop 环境配置
 
-难度等级：★★<br>
-预计时间：4 hours<br>
+难度等级：★★★<br>
+预计时间：6 hours<br>
 
 1) 在 VirtualBox 软件环境中，新建3个虚拟机节点<br>
 2) 在新建立的3个虚拟机节点中，分别安装 CentOS 6.7 操作系统<br>
@@ -68,10 +68,10 @@ https://github.com/tenji-home/Big-Data/blob/master/01_Guide/01_Hadoop/docker.pdf
 1) 按照下面命令，下载 docker 环境脚本<br>
 ```bash
 git clone https://github.com/tenji-home/Big-Data.git
-cd Big-Data/01_Guide/environment/docker/Hadoop_Ubuntu_Bin/
+cd Big-Data/01_Guide/environment/docker/Hadoop_Ubuntu_Compose/
 ```
 2) 按照下面页面进行部署、确认<br>
-https://github.com/tenji-home/Big-Data/blob/master/01_Guide/environment/docker/Hadoop_Ubuntu_Bin/README.md<br>
+https://github.com/tenji-home/Big-Data/blob/master/01_Guide/environment/docker/Hadoop_Ubuntu_Compose/README.md<br>
 
 
 # Cloudera QuickStart 环境部署
